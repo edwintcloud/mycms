@@ -1,0 +1,436 @@
+/*NeonBlue CSS File
+Coder: pHÈR-d
+www.phpfusion-tr.com*/
+a {
+	color : #fff;
+	text-decoration : none;
+
+}
+
+a:hover {
+	color : #cdd2d2;
+	text-decoration : underline;
+	}
+
+a.side {
+	color : #fff;
+    text-decoration : none;
+}
+
+a:hover.side {
+	color : #cdd2d2;
+	text-decoration : underline;
+}
+
+a.white {
+	color : #fff;
+	text-decoration : none;
+}
+
+a:hover.white {
+	color : #cdd2d2;
+	text-decoration : underline;
+}
+
+body {
+   font-family : Verdana, Arial, Helvetica, sans-serif;
+   font-size : 11px;
+   background-image: url(images/background.jpg);
+   background-attachment: fixed;
+   background-repeat: repeat-x;
+   background-color:#000204;
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+
+
+img {
+border:0px;
+}
+
+form {
+	margin : 0px;
+}
+
+hr {
+	height : 0px;
+	border : 1px solid #eee;
+}
+
+hr.side-hr {
+	height : 0px;
+	border : 1px solid #eee;
+}
+
+td {
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	font-size : 11px;
+}
+
+pre {
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	font-size : 11px;
+}
+
+.alt {
+	color : #ffffff;
+}
+
+.outer-border {
+	padding: 0px;
+}
+
+.sub-header {
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	font-size : 10px;
+    height : 25px;
+	color : #fff;
+	background-color : #000e13;
+	padding : 0px;
+    padding : 6px 20px 5px 45px;
+	border-right: 1px #a7a7a7 solid;
+	border-left: 1px #a7a7a7 solid;
+}
+
+.sub-header-alti {
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	font-size : 10px;
+
+	color : #fff;
+	background-color : #000e13;
+	padding : 5px;
+    background-image: url(images/menucenter.gif);
+}
+
+.sub-header-alti ul{
+	margin: 0;
+	padding: 0;
+}
+
+.sub-header-alti ul li{
+	display: inline;
+}
+
+.sub-header-alti ul li.first-link .bullet{
+	display: none;
+}
+
+.full-header {
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	font-size : 10px;
+    height : 116px;
+	color : #ddd;
+	background-color : #000e13;
+	padding : 0px;
+	border-left: 1px #a7a7a7 solid;
+	border-right: 1px #a7a7a7 solid;
+}
+.full-header2 {
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	font-size : 10px;
+    height : 116px;
+	color : #ffffff;
+	background-color : #000e13;
+	padding-top : 12px;
+	padding-right : 12px;
+	border-right: 1px #a7a7a7 solid;
+}
+.footer {
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	font-size : 10px;
+	color : #fff;
+	background-image: url(images/footerleftback.gif);
+	background-repeat: no-repeat;
+	background-position: bottom;
+	background-color : #000e13;
+	border-left: 1px #a7a7a7 solid;
+	padding-left : 12px;
+	padding-bottom : 10px;
+	vertical-align: bottom;
+}
+
+.footerright {
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	font-size : 10px;
+	color : #fff;
+	background-image: url(images/footerrightback.gif);
+	background-repeat: no-repeat;
+	background-position: bottom;
+	background-color : #000e13;
+	border-right: 1px #a7a7a7 solid;
+	padding-right : 12px;
+	padding-bottom : 15px;
+	vertical-align: bottom;
+}
+
+.button {
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	font-size : 10px;
+	color : #ffffff;
+	background-color : #001821;
+	height : 20px;
+	border : 1px solid #002737;
+	margin-top : 2px;
+}
+
+.textbox {
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	font-size : 10px;
+	color : #fff;
+	background-color : #001821;
+	border : 1px solid #002838;
+	padding:2px;
+	margin:2px;
+}
+
+.main-body {
+	font-size : 11px;
+	color : #fff;
+	background-color : #000e13;
+	padding : 7px;
+}
+
+.side-body {
+	font-size : 10px;
+	color : #fff;
+	padding : 4px 12px 5px 12px;
+}
+
+.main-bg {
+	color : #fff;
+	background-color : #000e13;
+	padding : 10px 5px 10px 5px;
+}
+.center { margin: 0 auto;}
+
+.news-category
+{
+	border : 0 none;
+	float : left;
+	margin-left : 0;
+	margin-right : 5px;
+	margin-top : 3px;
+	margin-bottom : 0;
+}
+
+.side-border-left {
+	color : #fff;
+	border-left: 1px #a7a7a7 solid;
+	background-color : #000e13;
+	padding : 10px 5px 10px 0px;
+	width: 175px;
+}
+
+.side-border-right {
+	color : #fff;
+	border-right: 1px #a7a7a7 solid;
+	background-color : #000e13;
+	padding : 10px 0px 10px 5px;
+	width: 175px;
+}
+
+.news-footer {
+	font-size : 10px;
+	color : #fff;
+	background-color : #000e13;
+	background-image : url(images/menucenter.gif);
+	padding : 3px 4px 4px 4px;
+}
+
+.capmain {
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	font-size : 11px;
+    height : 25px;
+	font-weight : bold;
+	color : #ffffff;
+	background-color : #000e13;
+	padding : 2px 0px 4px 10px;
+    background-image: url(images/menucenter.gif);
+}
+
+.scapmain {
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	font-size : 11px;
+    height : 25px;
+	font-weight : bold;
+	color : #ffffff;
+	background-color : #f1f1f1;
+	padding : 4px 0px 5px 12px;
+    background-image: url(images/menucenter.gif);
+}
+
+.tbl-border {
+	color : #fff;
+	background-color : #002838;
+}
+
+.tbl {
+	font-size : 11px;
+	color : #fff;
+	background-color : #000e13;
+	padding : 4px;
+}
+
+.tbl1 {
+	font-size : 11px;
+	color : #fff;
+	background-color : #000e13;
+	border-top : 0px #002838 solid;
+	border-bottom : 1px #002838 solid;
+	border-left : 0px #002838 solid;
+	border-right : 0px #002838 solid;
+	padding : 4px;
+}
+
+
+.tbl2 {
+	font-size : 11px;
+	color : #fff;
+	background-color : #001821;
+	border-top : 0px #002838 solid;
+	border-bottom : 1px #002838 solid;
+	border-left : 0px #002838 solid;
+	border-right : 0px #002838 solid;
+	padding : 4px;
+}
+
+.forum-caption {
+	font-size : 11px;
+	font-weight : bold;
+	color : #fff;
+	height:25px;
+	background-color : #000e13;
+	padding : 2px 4px 4px 4px;
+    background-image: url(images/menucenter.gif);
+}
+
+.quote {
+	font-size : 11px;
+	font-style: italic;
+	color : #fff;
+	background-color : #000e13;
+	padding : 4px;
+	margin : 10px 20px 10px 20px;
+	border : 1px #bbb dashed;
+}
+
+.poll {
+	height : 12px;
+	border : 1px #bbb solid;
+}
+
+.comment-name {
+	font-weight : bold;
+	color : #005599;
+}
+
+.shoutboxname {
+	font-weight : bold;
+	color : #ffffff;
+	background-color : #000e13;
+}
+
+.shoutbox {
+	color : #ffffff;
+	background-color : #000e13;
+}
+
+.shoutboxdate {
+	font-size : 10px;
+	color : #8c8c8c;
+	background-color : #000e13;
+}
+
+.small {
+	font-size : 10px;
+	color:#fff;
+	font-weight : normal;
+}
+
+.small2 {
+	font-size : 10px;
+	font-weight : normal;
+	color : #fff;
+}
+
+.side-small {
+	font-size : 10px;
+	font-weight : normal;
+	color : #000e13;
+	background-color : #6b6b6b;
+}
+
+.side-label {
+	color : #000e13;
+	background-color : #6b6b6b;
+	padding : 0px 2px 1px 8px;
+}
+div {
+  margin : 0px;
+  padding : 0px;
+}
+
+.logo {
+  padding : 15px 0px 0px 12px;
+}
+
+.pagenav {
+  padding:4px;
+}
+.pagenav span {
+  border: 1px solid #fff;
+  border-top : 1px solid #FFF;
+  border-left : 1px solid #FFF;
+  color:#555555;
+  margin:2px;
+  padding:2px 4px;
+}
+.pagenav a {
+  border:1px solid #fff;
+  border-top : 1px solid #FFF;
+  border-left : 1px solid #FFF;
+  color:#fff;
+  margin:2px;
+  padding:2px 4px;
+  text-decoration:none;
+}
+.pagenav a:hover {
+  color:#cdd2d2;
+  margin:2px;
+  text-decoration:none;
+}
+.admin-message {
+  font-family : Verdana, Arial, Helvetica, sans-serif;
+  font-size : 11px;
+  text-align : center;
+  color : #fff;
+  background-color : #000204;
+  border : 1px solid #fff;
+  padding : 3px 4px 5px 4px;
+  margin-bottom : 5px;
+}
+#navigation ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+#navigation h2 {
+	font-size: 12px;
+	color: #000e13;
+	background-color: #6b6b6b;
+	margin: 0;
+	padding: 2px;
+}
+#navigation a {
+	color: #fff;
+	padding: 2px;
+	text-decoration : none;
+}
+
+#navigation a:hover {
+	color: #cdd2d2;
+	text-decoration : underline;
+}
+* html #navigation ul li{
+	height: 1%;
+}

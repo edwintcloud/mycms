@@ -1,0 +1,510 @@
+/* Comment element properties */
+/* Theme by PhpFusionBox.com */
+
+ a {
+	color: #999;
+	text-decoration: none;
+ }
+
+ a:hover {
+ 	color: #e1e1e1;
+	background-color: #741616;
+ 	text-decoration: none;
+ }
+
+ a.side {
+	color: #999;
+ 	text-decoration: none;
+ }
+
+
+ a:hover.side {
+	color: #e1e1e1;
+	background-color: #741616;
+ 	text-decoration: none;
+
+ }
+
+a.white, li.white a {
+	font-size: 12px;
+	color: #fff;
+	text-decoration: none;
+	padding: 18px 20px 18px 20px;
+}
+
+a:hover.white, li.white a:hover {
+	font-size: 12px;
+	color: #999;
+	text-decoration: none;
+	background-image: url(images/pfboxa.jpg);
+	background-repeat: repeat-x;
+	background-position: center;
+	padding: 18px 20px 18px 20px;
+}
+
+
+ body {
+ 	font-family: Verdana, Arial, Helvetica, sans-serif;
+ 	font-size: 11px;
+ 	color: #999;
+ 	background: #222;
+	background-image: url(images/pfboxbackground.jpg);
+	background-repeat: repeat-x;
+	margin: 10px;
+ }
+
+ hr {
+ 	height: 1px;
+	border: 1px solid #eee;
+
+ }
+
+ hr.side-hr {
+ 	height: 1px;
+ 	border: 1px solid #eee;
+ }
+
+ td {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+ 	font-size: 11px;
+ }
+
+ pre {
+ 	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+ }
+ .alt {
+ 	color: #222;
+ }
+ .spacer {
+ 	margin-bottom: 5px;
+ }
+
+ .admin-message {
+ 	font-family: Verdana, Arial, Helvetica, sans-serif;
+ 	font-size: 11px;
+ 	text-align: center;
+ 	color: #fff;
+ 	background-color: #222;
+ 	border: 1px solid #e1e1e1;
+ 	padding: 3px 4px 5px 4px;
+	margin-bottom: 5px;
+ }
+
+ /* Form element properties */
+
+ form {
+ 	margin: 0px;
+ }
+
+
+ .button {
+
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+ 	color: #999;
+ 	background-color: #000;
+	background-image: url(images/button.gif);
+	background-repeat: no-repeat;
+	background-position: left;
+	height: 20px;
+	border: 1px solid #222;
+ 	margin-top: 2px;
+ }
+
+ .button:hover {
+
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+ 	color: #555;
+ 	background-color: #000;
+	background-image: url(images/buttonhover.gif);
+	background-repeat: no-repeat;
+	background-position: left;
+	height: 20px;
+	border: 1px solid #222;
+ 	margin-top: 2px;
+ }
+
+ .bbcode {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+ 	font-size: 10px;
+ 	color: #000;
+ 	background-color: #eee;
+ 	border: 1px solid #ccc;
+ 	margin-top: 2px;
+
+ }
+
+ .textbox {
+ 	font-family: Verdana, Arial, Helvetica, sans-serif;
+ 	font-size: 10px;
+ 	color: #999;
+ 	background-color: #111;
+ 	background-image: url(images/pfboxtextbox.jpg);
+ 	background-repeat: repeat-x;
+ 	border: 1px solid #999;
+
+ }
+
+
+ /* Header and footer properties */
+
+ .sub-header {
+	text-align: right;
+ 	font-family: Verdana, Arial, Helvetica, sans-serif;
+ 	font-weight: bold;
+ 	font-size: 10px;
+ 	color: #aac300;
+ 	background-color: #222;
+	background-image: url(images/pfboxsubheader.jpg);
+	background-repeat: repeat-x;
+	height: 50px;
+ }
+
+.sub-headerright {
+	background-image: url(images/pfboxsubheaderright.jpg);
+	background-repeat: repeat-x;
+	height: 50px;
+	width: 61px;
+}
+
+ .sub-header ul{
+ 	margin: 0;
+ 	padding: 0;
+ }
+
+
+ .sub-header ul li{
+ 	display: inline;
+ }
+
+ .sub-header ul li.first-link .bullet{
+ 	display: none;
+ }
+
+
+ .full-header {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+ 	font-size: 10px;
+ 	color: #fff;
+	background-color: #222;
+	background-image: url(images/pfboxheaderleft.jpg);
+	background-repeat: no-repeat;
+	height: 50px;
+	width: 231px;
+ }
+
+ .ad { 
+	background-image: url(images/pfboxad.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 540px;
+	height: 96px;
+	padding-bottom: 100px;
+ }
+	
+
+ .main-footer {
+
+ 	font-family: Verdana, Arial, Helvetica, sans-serif;
+ 	font-size: 10px;
+ 	color: #93c900;
+ 	background-color: #444;
+ 	padding: 5px;
+
+ }
+
+ .bottom-footer {
+
+ 	font-family: Verdana, Arial, Helvetica, sans-serif;
+ 	font-size: 10px;
+ 	color: #999;
+ 	background-color: #222;
+ 	background-image: url(images/pfboxfooter.jpg);
+	background-repeat: repeat-x;
+	padding: 5px 0px 14px 0px;
+ }
+
+ .main-body {
+ 	font-size: 10px;
+ 	color: #777;
+ 	background-color: #000;
+	background-image: url(images/pfboxgradient.jpg);
+	background-repeat: repeat-x;
+	border: 0px solid #111;
+	padding: 4px;
+ }
+
+
+ /* Side-Panel properties */
+
+
+ .side-border-left {
+
+ 	color: #fff;
+ 	background-color: #222;
+ 	padding: 6px 20px 6px 0px;
+ 	width: 200px;
+ }
+
+ .side-border-right {
+ 	color: #fff;
+ 	background-color: #222;
+ 	padding: 6px 0px 6px 20px;
+ 	width: 200px;
+ }
+
+.pfboxbll {
+
+	background-image: url(images/pfboxbll.jpg);
+	background-repeat: repeat-y;
+	width: 3px;
+	}
+
+
+.pfboxblr {
+
+	background-image: url(images/pfboxblr.jpg);
+	background-repeat: repeat-y;
+	width: 3px;
+	}
+
+ .scapmain {
+ 	font-family: Verdana, Arial, Helvetica, sans-serif;
+ 	font-size: 11px;
+ 	font-weight: bold;
+ 	color: #fff;
+ 	background-color: #222;
+ 	background-image: url(images/pfboxscap.jpg);
+	background-repeat: repeat-x;
+ 	padding: 16px 4px 0px 4px;
+ }
+
+
+
+.pfboxsbc {
+
+ 	background-image: url(images/pfboxsbc.gif);
+	background-repeat: repeat-x;
+  }
+
+
+ .side-body {
+ 	font-size: 10px;
+ 	color: #888;
+ 	background-color: #000;
+	background-image: url(images/pfboxgradient.jpg);
+	background-repeat: repeat-x;
+	border: 0px solid #111;
+ 	padding: 4px;
+
+ }
+
+.pfboxsideb {
+	background-color: #222;
+ 	background-image: url(images/pfboxsideb.jpg);
+	background-repeat: repeat-x;
+  }
+
+ /* Center-Panel properties */
+
+ .news-category {
+
+ 	border: 0;
+ 	margin: 3px 5px 0 0;
+ 	float: left;
+
+ }
+ .news-footer {
+
+ 	font-size: 10px;
+	color: #a1a1a1;
+ 	background-color: #000;
+	background-image: url(images/pfboxnewsfooter.jpg);
+	background-repeat: repeat-x;
+	background-position: center;
+ 	padding: 3px 4px 4px 4px;
+
+ }
+
+
+ .capmain {
+ 	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+ 	font-weight: bold;
+ 	color: #fff;
+ 	background-color: #222;
+ 	background-image: url(images/pfboxcap.jpg);
+	background-repeat: repeat-x;
+ 	padding: 16px 4px 0px 4px;
+
+ }
+
+ .main-bg {
+
+ 	color: #666;
+ 	background-color: #222;
+ 	padding: 6px 0 6px 0;
+
+ }
+
+
+ /* General table properties */
+
+ .center {
+ 	margin: 0 auto;
+ }
+
+ .tbl-border {
+ 	border: 1px solid #420000;
+ }
+ 
+ .tbl {
+ 	font-size: 11px;
+ 	color: #666;
+ 	background-color: #000;
+	padding: 4px;
+ }
+ 
+ .tbl1 {
+ 	font-size: 11px;
+ 	color: #888;
+ 	background-color: #000;
+	border: 1px solid #270000;
+ 	padding: 4px;
+ }
+ 
+ .tbl2 {
+ 	font-size: 11px;
+ 	color: #999;
+ 	background-color: #222;
+	border: 1px solid #420000;
+ 	padding: 4px;
+ }
+ 
+ .forum-caption {
+ 	font-size: 11px;
+ 	font-weight: bold;
+ 	color: #741616;
+ 	background-color: #111;
+ 	padding: 2px 4px 4px 4px;
+ }
+ 
+ .quote {
+ 	font-size: 11px;
+ 	color: #111;
+ 	background-color: #ebeddb;
+ 	padding: 4px;
+ 	margin: 0px 20px 0px 20px;
+ 	border: 1px solid #0c579d;
+ }
+ 
+ .poll { 	
+	height: 12px;
+ 	border: 1px solid #111;
+ } 
+
+ .comment-name { 	
+	font-weight: bold;
+	color: #788a00;
+ } 
+ 
+  .shoutboxname {
+	font-weight: bold;
+	color: #fff;
+}
+
+.shoutbox {
+	color: #999;
+}
+
+.shoutboxdate {
+	font-size: 10px;
+	color: #888;
+}
+
+.small {
+	font-size: 10px;
+	font-weight: normal;
+}
+
+.small2 {
+	font-size: 10px;
+	font-weight: normal;
+	color: #777;
+}
+
+.side-small {
+	font-size: 10px;
+	font-weight: normal;
+	color: #777;
+}
+
+.side-label {
+	color: #777;
+	margin: 2px 0 2px 0;
+	padding: 2px 2px 3px 2px;
+}
+
+/* Vertical Navigation */
+
+#navigation h2 {
+	font-size: 10px;
+	font-weight: normal;
+	background-color: #f1f1f1;
+	margin: 0;
+	padding: 4px;
+}
+	
+#navigation ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+* html #navigation ul li{
+   height: 1%;
+}
+
+#navigation a {
+	display: block;
+	color: #555;
+	padding: 2px;
+	text-decoration: none;
+}
+
+#navigation a:hover {
+	color: #222;
+	background-color: #c0c0c0;
+}
+
+/* Page Navigation */
+
+.pagenav {
+	padding: 4px;
+}
+
+.pagenav span {
+	color: #000;
+	background-color: #c0c0c0;
+	border: 1px solid #ddd;
+	padding: 2px 4px 2px 4px;
+	margin: 2px;
+}
+
+.pagenav a {
+	color: #555;
+	background-color: #f1f1f1;
+	border: 1px solid #ddd;
+	padding: 2px 4px 2px 4px;
+	margin: 2px;
+	text-decoration: none;
+}
+
+.pagenav a:hover {
+	color: #000;
+	background-color: #c0c0c0;
+	margin: 2px;
+	text-decoration: none;
+}

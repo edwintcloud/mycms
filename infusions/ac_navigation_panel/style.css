@@ -1,0 +1,39 @@
+ul#menu2, ul#menu2 ul {
+  list-style-type:none;
+  margin: 0;
+  padding: 0;
+  width: 15em;
+  text-align: left;
+}
+
+ul#menu2 a {
+  display: block;
+  text-decoration: none;
+}
+
+ul#menu2 li {
+  margin-top: 1px;
+}
+
+ul#menu2 li a {
+  background: #333;
+  background-image: url(images/main_bg.gif);
+  padding: 0.5em;
+  margin-bottom: 1px;
+}
+
+ul#menu2 li a:hover {
+  background: #000;
+  background-image: url(images/main_bg_hoover.gif);
+}
+
+ul#menu2 li ul a {
+  background: #d1d1d1;
+  color: #000;
+  padding-left: 15px;
+}
+
+ul#menu2 li ul a:hover {
+  background: #c1c1c1;
+background-image: url(images/silvergradientover.gif);
+}
